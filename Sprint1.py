@@ -3,8 +3,6 @@ from datetime import datetime, date
 
 consultas = []
 
-
-
 print('Inicio do App')
 
 def nome_do_app():
