@@ -74,7 +74,7 @@ def agendar_consulta():
         if cpf_paciente.isdigit() and len(cpf_paciente) == 11:
             break
         else:
-            print("CPF inválido. Digite exatamente 11 números.")
+            print("CPF inválido. O CPF deve conter 11 dígitos numéricos.")
 
     while True:
         data_da_consulta = input('Digite a data da consulta (dd/mm/aaaa): ')
