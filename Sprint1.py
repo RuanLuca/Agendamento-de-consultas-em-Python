@@ -155,9 +155,8 @@ def consultas_online():
         escolha = int(input('\nDigite o número da consulta que deseja entrar online: ')) - 1
         if 0 <= escolha < len(consultas):
             print('\nCarregando sala online...')
-            # Aqui está um link fictício que você pode personalizar.
             print('Acesse o link da consulta online:')
-            print('https://meet.google.com/abc-defg-hij')  # ou outro serviço de videoconferência
+            print('https://zoom.com/abc-defg-hij') 
         else:
             print('Opção inválida. Nenhuam consulta encontrada.')
     except ValueError:
