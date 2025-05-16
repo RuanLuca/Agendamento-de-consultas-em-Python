@@ -6,7 +6,7 @@ consultas = []
 print('Inicio do App')
 
 def nome_do_app():
-    print('x')
+    print('InovaHC')
 
 def voltar_ao_menu_principal():
     input('\nPressione a tecla Enter para voltar ao início! ')
@@ -156,7 +156,7 @@ def consultas_online():
         if 0 <= escolha < len(consultas):
             print('\nCarregando sala online...')
             print('Acesse o link da consulta online:')
-            print('https://zoom.com/abc-defg-hij') 
+            print('https://zoom.com/abc-defg-hij') # Exemplo de link 
         else:
             print('Opção inválida. Nenhuam consulta encontrada.')
     except ValueError:
@@ -167,7 +167,7 @@ def consultas_online():
 
 def finalizar_app():
     exibir_subtitulo('Finalizando o App...')
-    print('Agradecemos por usar o x!')
+    print('Agradecemos por usar o InovaHC!')
 
 def main():
     os.system('cls')
